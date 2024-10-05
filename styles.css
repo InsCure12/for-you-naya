@@ -52,3 +52,10 @@ button:hover {
 #responseMessage {
     margin-top: 20px;
 }
+
+/* Add this to your existing styles.css */
+
+audio {
+    margin-top: 20px; /* Space above the audio player */
+    width: 100%; /* Make it responsive */
+}
