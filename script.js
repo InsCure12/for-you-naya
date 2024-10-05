@@ -1,5 +1,5 @@
 const whatsappNumber = "6282145419561"; // Replace with your WhatsApp number
-const pesan = "I Want!";
+const pesan = "Yes,I Want!";
 
 document.addEventListener('DOMContentLoaded', function() {
     const backgroundMusic = document.getElementById('backgroundMusic');
