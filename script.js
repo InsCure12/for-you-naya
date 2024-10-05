@@ -1,4 +1,4 @@
-const whatsappNumber = "+6282145419561"; // Replace with your WhatsApp number
+const whatsappNumber = "082145419561"; // Replace with your WhatsApp number
 const pesan = "I Want, now we are dating";
 
 document.addEventListener('DOMContentLoaded', function() {
