@@ -1,5 +1,10 @@
-const whatsappNumber = "082145419561"; // Replace with your WhatsApp number
+const whatsappNumber = "YourNumber"; // Replace with your WhatsApp number
 const pesan = "I Want, now we are dating";
+
+document.addEventListener('DOMContentLoaded', function() {
+    const backgroundMusic = document.getElementById('backgroundMusic');
+    backgroundMusic.play(); // Automatically play the music when the page loads
+});
 
 document.getElementById('yesButton').addEventListener('click', function() {
     document.getElementById('responseMessage').innerHTML = "Now you are my girlfriend!";
