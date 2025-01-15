@@ -1,5 +1,5 @@
 const whatsappNumber = "6282145419561"; // Replace with your WhatsApp number
-const pesan = "Yes,I Want!";
+const pesan = "Lets Gooooo";
 
 document.addEventListener('DOMContentLoaded', function() {
     const backgroundMusic = document.getElementById('backgroundMusic');
@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 document.getElementById('yesButton').addEventListener('click', function() {
-    document.getElementById('responseMessage').innerHTML = "Now you are my girlfriend!";
+    document.getElementById('responseMessage').innerHTML = "I hope you can receive it well";
     document.getElementById('responseMessage').classList.remove('hidden');
     
     bukaWhatsApp();
@@ -32,6 +32,5 @@ function moveButton(button) {
 function bukaWhatsApp() {
     const encodedMessage = encodeURIComponent(pesan);
     
-    // Open WhatsApp with the message
     window.open(`https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodedMessage}`, '_blank');
 }
