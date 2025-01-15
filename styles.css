@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #FFC0CB;
+    background-color: #c0edff;
     color: #333;
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@ h1 {
 
 button {
     padding: 10px 20px;
-    background-color: #FF69B4;
+    background-color: #69b7ff;
     color: white;
     border: none;
     border-radius: 5px;
@@ -42,7 +42,7 @@ button {
 }
 
 button:hover {
-    background-color: #FF1493; /* Darker pink on hover */
+    background-color: #143fff; /* Darker pink on hover */
 }
 
 .hidden {
